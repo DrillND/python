@@ -19,7 +19,7 @@ str = '홍길동'
 print(str)
 print('num: ', num)
 print('문자열 str: ', str)
-
+dsfsdfsdfsfsgsgsdfgsg
 print('숫자: %d'% num)
 print('문자열: %s'% str)
 PI = 3.14152
