@@ -1,0 +1,10 @@
+import csv
+f = open('210416.csv', encoding = 'cp949')
+data = csv.reader(f)
+header = next(data)
+for i in data :
+    if int(i[5]) >= 10000 :
+        print(i)
+    elif '-' in i[5] :
+        continue
+f.close()
