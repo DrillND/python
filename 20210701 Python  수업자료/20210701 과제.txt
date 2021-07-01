@@ -1,0 +1,13 @@
+라이브러리
+requests 주소 페이지 가져오기
+BeautifulSoup 파서 나눌때
+=> 웹 스크래핑, 자유주제
+
+tkinter GUI 만들기 
+
+.py파일
+EXE 파일 ,코드(.py)
+실행파일 만들기
+
+
+
