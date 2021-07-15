@@ -1,0 +1,13 @@
+pip install
+
+초보자를 위한 Python GUI 프로그래밍 - PyQt5
+
+https://wikidocs.net/book/2944
+
+ 
+
+개인 프로젝트 진행 시 파이썬 GUI가 필요하실 때
+
+PyQt로 진행하시길 추천합니다.
+
+참고하실 만한 Wikidocs 사이트 주소를 첨부드립니다.
