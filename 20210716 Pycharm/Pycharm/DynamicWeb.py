@@ -10,7 +10,7 @@ pypi = None
 for m in menus:
     if m.text == "PyPI":
         pypi = m
-    print(m.text)
+    print(m.text) # 실행에는 필요없는 것, menus에 들어간 것들 확인 
 
 pypi.click()  # 클릭
 

@@ -1,10 +1,11 @@
-#수업 원본
+#4번 실행 해보는 파일
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
 
 req = requests.get('http://media.daum.net/ranking/popular/')
+#print(req)
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 newstitle = soup.select('a.link_txt')
@@ -18,6 +19,6 @@ for i in range(len(newscomname)):
     lst2.append(newstitle[i].text.strip())
 
 result_file = pd.DataFrame({'newstitle':lst2, 'newscomname':lst1})
-result_file.to_csv("C:\\Users\\KB\\Documents\\R\\result.csv", index=False,
-                   encoding='euc-kr')
+
+print((result_file))
 # utf-8, cp-949
